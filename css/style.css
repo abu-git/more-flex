@@ -2,4 +2,6 @@
 .container{
     border: 5px solid #ffcc5c;
     display: flex;
+    /* flex-direction: column; >>> cross axis */
+    flex-direction: row; /* >>> main asix also default when using display: flex */
 }
