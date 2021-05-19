@@ -4,4 +4,11 @@
     display: flex;
     /* flex-direction: column; >>> cross axis */
     flex-direction: row; /* >>> main asix also default when using display: flex */
+    justify-content: space-around; /*  controls content among main axis */
 }
+
+/*  
+justify-content: flex-start flex-end center space-around
+space-between space-evenly
+
+*/
