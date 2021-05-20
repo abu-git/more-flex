@@ -6,15 +6,21 @@
     flex-direction: row; /* >>> main asix also default when using display: flex */
     justify-content: flex-end;  /* controls content among main axis */
 }
-
-.home {
-    margin-right: auto; /* moves target along main axis */
-}
-
-
-
 /*  
 justify-content: flex-start flex-end center space-around
 space-between space-evenly
 
 */
+
+/*.container > div{
+    flex: 1; /* sets width of target to width of container(responsive) 
+}*/
+
+.home, .logout {
+    flex: 1; /* targets more than one flex item */
+}
+
+/*.home {
+    margin-right: auto;  moves target along main axis 
+}*/
+
