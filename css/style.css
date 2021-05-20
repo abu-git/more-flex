@@ -2,20 +2,23 @@
 .container{
     border: 5px solid #ffcc5c;
     display: flex;
-    height: 100%;
-    align-items: center;
-    /* flex-direction: column; >>> cross axis */
+    /*height: 100%;*/
+    /*align-items: center;*/
+    flex-direction: column; /* >>> cross axis */
     /* flex-direction: row;  >>> main asix also default when using display: flex */
     /* justify-content: flex-end;   controls content among main axis */
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
 }
 
-.logout{
+/*.logout{
     align-self: flex-start;
 }
 
 .home {
     align-self: flex-end;
-}
+} */
 /*  
 justify-content: flex-start flex-end center space-around
 space-between space-evenly
