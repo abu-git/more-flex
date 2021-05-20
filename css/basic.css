@@ -8,6 +8,7 @@
 html, body {
     background-color: #ffeead;
     margin: 10px;
+    height: 100%; /* >>> NOTE height of html, body and container is 100% */
 }
 
 .container > div:nth-child(1){
