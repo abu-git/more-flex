@@ -13,7 +13,25 @@
     flex-wrap: wrap;
 }
 
-.container > div{
+.home{
+    /*flex-grow: 1;
+    flex-shrink: 1;*/
+    flex: 1 1 200px; /*  shorthand for all three below */
+    /*flex-grow: 1;  sets the grow rate of element over left-over space 
+    flex-shrink: 1; /* sets the shrink rate of element over left-over space 
+    flex-basis: 200px; /* flex-basis sets base width of the element */
+}
+
+.logout{
+    /*flex-grow: 1;
+    flex-shrink: 1;*/
+    flex: 10 1 200px;
+    /*flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;*/
+}
+
+/*.container > div{
     width: 300px;
 }
 
