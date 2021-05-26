@@ -19,6 +19,7 @@ html, body {
 
 .search-input{
     background-color: #ff6e68;
+    font-size: 2rem;
     border: 0;
     width: 100%;
     outline: 0;
